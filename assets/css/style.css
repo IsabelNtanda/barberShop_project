@@ -20,7 +20,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Nunito', sans-serif;
 }
-
+html, body{
+scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
 }
@@ -52,22 +54,22 @@ section .container {
 }
 #header {
   width: 100%;
+  position: fixed;
   background-color: var(--black-color);
   height: 12vh;
   display: flex;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
 }
-
 #header .container {
   width: 85%;
   margin: 0 auto;
 }
-
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 nav ul {
   display: flex;
@@ -108,7 +110,7 @@ nav ul + a:hover {
   width: 100%;
   max-height: 80rem;
   background: #1e1e1e;
-  padding: 10rem 0;
+  padding: 20rem 0;
   color: white;
   /* background-image: url('../img/background.png');
   background-repeat:no-repeat;
